@@ -15,13 +15,18 @@
     "preset": "ts-jest",
     "testEnvironment": "node",
     "transform": {
-      "^.+\\.tsx?$": ["ts-jest", { "tsconfig": "tsconfig.test.json" }]
+      "^.+\\.tsx?$": [
+        "ts-jest",
+        {
+          "tsconfig": "tsconfig.test.json"
+        }
+      ]
     },
     "testMatch": [
       "**/__tests__/**/*.test.ts"
     ]
   },
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
     "@types/jest": "^30.0.0",
     "@types/node": "^25.6.0",

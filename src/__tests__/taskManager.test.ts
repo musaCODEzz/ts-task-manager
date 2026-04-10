@@ -7,7 +7,7 @@ import {
     getTasksByStatus,
     deleteTask,
     clearTasks,
-} from "../taskManager";
+} from "../taskManager.js";
 
 beforeEach(() => {
     clearTasks();
